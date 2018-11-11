@@ -48,7 +48,7 @@ class Main extends PluginBase implements Listener {
 					$form->setTitle("FactionUI Screen");
 					$form->setContent("FactionUI Commands.");
 					$form->addButton(TextFormat::BOLD . "§7Top Factions");	
-                    $form->addButton(TextFormat::BOLD . "§7Invite Player");	
+                                        $form->addButton(TextFormat::BOLD . "§7Invite Player");	
 					$form->sendToPlayer($sender);
 				}
 				else{
