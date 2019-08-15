@@ -34,21 +34,21 @@ class Main extends PluginBase implements Listener {
 					}
 						switch($result){
 							case 0:
-								$command = "f topfactions";
+								$command = "repair hand";
 								$this->getServer()->getCommandMap()->dispatch($sender, $command);
 							break;
               
                                                         case 1:
-								$command = "f invite $player";
+								$command = "repair all";
 								$this->getServer()->getCommandMap()->dispatch($sender, $command);
 							break;
 								
 						}
 					});
-					$form->setTitle("FactionUI Screen");
-					$form->setContent("FactionUI Commands.");
-					$form->addButton(TextFormat::BOLD . "§7Top Factions");	
-                                        $form->addButton(TextFormat::BOLD . "§7Invite Player");	
+					$form->setTitle("Repair UI ");
+					$form->setContent("Repair Commands.");
+					$form->addButton(TextFormat::BOLD . "§7Repair Hand");	
+                                        $form->addButton(TextFormat::BOLD . "§7Repair all");	
 					$form->sendToPlayer($sender);
 				}
 				else{
