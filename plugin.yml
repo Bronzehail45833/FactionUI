@@ -5,5 +5,5 @@ version: 1.0.0
 author: BajanVlogs
 
 commands:
- factionui:
+ repairui:
   description: "This is for Faction servers using CustomUI"
